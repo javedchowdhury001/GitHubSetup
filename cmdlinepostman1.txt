@@ -1,0 +1,26 @@
+
+Go to cmd 
+
+install node.js(npm)
+node -v
+npm -v
+
+install newman
+npm install -g newman
+
+install html
+npm install newman-reporter-html
+
+method 1:
+newman run EmployeAPI.postman_collection.json
+
+method 2:
+D:\QA\Postman\cmdnewman>newman run EmployeAPI.postman_collection.json -r html
+
+LocalAPI Folder then rightclick then get public link then get this url line
+html report:
+open cmd :
+method 3:
+D:\QA\Postman\cmdnewman>newman run https://www.getpostman.com/collections/216a27b7b3e891bda4f7 -r html
+
+

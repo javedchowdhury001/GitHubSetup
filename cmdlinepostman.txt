@@ -1,0 +1,22 @@
+Go to cmd 
+
+install node.js(npm)
+node -v
+npm -v
+
+install json server:
+npm install -g json-server
+
+
+run:
+D:\QA\Postman\CMDNewman\LocalApi>json-server info.json
+
+Method1:
+D:\QA\Postman\CMDNewman\LocalApi>newman run LocalApi.postman_collection.json -r html
+
+
+Method2:
+LocalAPI Folder then rightclick then get public link then get this url line
+html report:
+open cmd :
+D:\QA\Postman\CMDNewman\LocalApi>newman run https://www.getpostman.com/collections/d20ceb4ff3311eac4a4e -r html

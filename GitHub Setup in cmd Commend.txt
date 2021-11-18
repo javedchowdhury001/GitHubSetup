@@ -1,0 +1,60 @@
+git --version
+
+C:\Users\Javd>git config --global user.name "javedchowdhury001"
+C:\Users\Javd>git config --global user.email "javedchowdhury001@gmail.com"
+
+git config --global --list
+
+Project from Github:
+C:\Users\Javd\eclipse-workspace>git clone https://github.com/javedchowdhury001/ExtentReportProject.git
+
+
+
+
+Project from local machine:
+C:\Users\Javd>cd C:\Users\Javd\eclipse-workspace\ExtentReportProject
+
+C:\Users\Javd\eclipse-workspace\ExtentReportProject>git init
+Initialized empty Git repository in C:/Users/Javd/eclipse-workspace/ExtentReportProject/.git/
+C:\Users\Javd\eclipse-workspace\ExtentReportProject>git add .
+C:\Users\Javd\eclipse-workspace\ExtentReportProject>git status
+C:\Users\Javd\eclipse-workspace\ExtentReportProject>git commit -m "First commit"
+C:\Users\Javd\eclipse-workspace\ExtentReportProject>git remote add origin https://github.com/javedchowdhury001/ExtentReportProject.git
+C:\Users\Javd\eclipse-workspace\ExtentReportProject>git push -u origin master
+
+
+Add new file from local Machine:
+C:\Users\Javd\eclipse-workspace\ExtentReportProject>git add *
+C:\Users\Javd\eclipse-workspace\ExtentReportProject>git commit -m "Second commit"
+C:\Users\Javd\eclipse-workspace\ExtentReportProject>git push origin master
+
+Add new file from GitHub:
+C:\Users\Javd\eclipse-workspace\ExtentReportProject>git pull origin master 
+
+
+Create New Branch:
+C:\Users\Javd\eclipse-workspace\ExtentReportProject>git checkout -b develop
+C:\Users\Javd\eclipse-workspace\ExtentReportProject>git branch
+
+
+Add New file for new develop branch:
+C:\Users\Javd\eclipse-workspace\ExtentReportProject>git add *
+C:\Users\Javd\eclipse-workspace\ExtentReportProject>git commit -m "fifth commit for develop branch"
+C:\Users\Javd\eclipse-workspace\ExtentReportProject>git push origin develop
+
+
+Add New file from new develop branch:
+C:\Users\Javd\eclipse-workspace\ExtentReportProject>git checkout develop
+C:\Users\Javd\eclipse-workspace\ExtentReportProject>git pull origin develop
+
+
+
+Switch develop branch to master branch:
+C:\Users\Javd\eclipse-workspace\ExtentReportProject>git checkout master
+C:\Users\Javd\eclipse-workspace\ExtentReportProject>git pull origin master
+C:\Users\Javd\eclipse-workspace\ExtentReportProject>git add *
+C:\Users\Javd\eclipse-workspace\ExtentReportProject>git commit -m "Final commit"
+C:\Users\Javd\eclipse-workspace\ExtentReportProject>git push origin master
+
+
+

@@ -1,0 +1,36 @@
+
+Github add project:
+
+Select the project= click the right button in mouse
+go to Team     = share project
+after share project =add to index
+Again Team  = commit
+than create repositories at github and add  this repositories in to Url/host
+Commit message= add my project
+after that Click commit and push button
+Than  user id and password 
+Next=Next=Finish
+Again user id and password
+Close
+
+
+
+Add Local to github new line:
+unstaged change message
+dragg and dropp to staged message
+than commit and push 
+
+Add Github to Local new line:
+Select the project then click the right button go to team 
+Than go to pull
+
+Merge to both local and github:
+Select the project then click the right button go to team 
+Than go to merge
+unstaged change message
+dragg and dropp to staged message
+than commit and push 
+
+import project from github:
+Eclipse go to file than import than git than clone uri
+than give repositories path and user id and password

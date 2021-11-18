@@ -1,0 +1,61 @@
+$ git config --global user.email "javedchowdhury001@gmail.com"
+$ git config --global user.name "javedchowdhury001"
+
+
+git init
+git status
+git add pom.xml
+git status
+git add –A
+git log
+git status
+git commit –m “first commit”
+git remote add origin https://github.com/javedchowdhury001/Autotrader.git
+
+git push -u origin master
+
+
+git log --oneline
+
+
+file modified:
+git commit -a -m "all files are modified"
+
+all file delete:
+git rm -r.
+
+one file delete:
+git rm file name
+
+New Branch create:
+git branch dev
+git branch
+git checkout dev
+git branch
+
+create and switch branch:
+git checkout -b test               (test is new branch name)
+
+
+Backto master branch:
+git checkout master
+git branch
+
+
+if your are in master branch
+Merge:
+git merge dev
+
+
+if you are in dev branch:
+git rebase master
+
+log:
+git log --oneline
+git log --oneline --graph
+
+
+branch delete:
+git branch -d dev
+
+

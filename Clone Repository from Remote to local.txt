@@ -1,0 +1,17 @@
+select Eclpse Git clone repository
+
+#Give the path to URI
+#Give the userid and password
+#NEXT
+#Next
+#Finish
+#Then Created Local Project clone to Eclipse project need to connect
+#goto eclipse project right click -> Team  -> Share project ->Select local repository from dropdown ->Finish
+#goto project right click->Team->AddtoIndex
+#Again goto prject right click->team->commit
+#then one comment msg then click commit and push button
+#Next 
+#Give the userid and password and click login
+#Finish
+#Again userid and password and click login
+#Close
