@@ -1,5 +1,9 @@
 
 SSH KEY: https://www.youtube.com/watch?v=Vmt0V6a3ppE
+GitBash:
+ssh-keygen
+cat /c/Users/jved/.ssh/id_rsa.pub
+then copy this key and paste into gitlab ssh key box
 
 
 Github add project:
