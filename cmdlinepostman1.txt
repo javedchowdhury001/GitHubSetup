@@ -10,6 +10,7 @@ npm install -g newman
 
 install html
 npm install newman-reporter-html
+npm install -g newman-reporter-htmlextra
 
 method 1:
 newman run EmployeAPI.postman_collection.json
@@ -22,5 +23,4 @@ html report:
 open cmd :
 method 3:
 D:\QA\Postman\cmdnewman>newman run https://www.getpostman.com/collections/216a27b7b3e891bda4f7 -r html
-
-
+newman run https://www.getpostman.com/collections/b7a40be1401180fb865a --reporters=cli,htmlextra
